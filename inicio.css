@@ -1,0 +1,257 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(152, 213, 184);
+}
+
+header{
+    width: 100%;
+}
+
+.nav-content{
+    display: block;
+    position: fixed ;
+    background-color: rgb(5, 73, 73);
+    width: 100%;
+    height: 76px;
+    padding: 10px;
+    z-index: 100;
+    
+}
+
+.nav-content__titulo{ 
+
+    position:relative ;
+    box-sizing: content-box;
+    margin-right: 30% ;
+    padding-left: 10px;
+    display: inline;
+    margin-left: 10px;
+    font-size: 50px ;
+    font-family:'BioRhyme', serif;
+    color:rgb(8, 241, 199) ;
+}
+
+.nav-content__titulo-logo{
+    max-width: 38px;
+    height: auto; 
+    display: inline;
+}
+
+.nav-content__Opciones{
+    display: inline;
+    padding: 1px;
+    width: auto;
+    height: auto;
+    font-family:'Open Sans', sans-serif;
+}
+
+.nav-content__Opciones-button{
+    background-color: rgb(105, 99, 99);
+    padding:4px;
+    margin: 4px;
+    color: honeydew ;
+    cursor: pointer; 
+    transition:  background-color 0.3s ease;
+}
+
+.nav-content__Opciones-button:hover{
+    background-color: #a6a9ab; 
+}
+
+.nav-content__enlace_instagram{
+    display: inline-block;
+    box-sizing:content-box;
+    vertical-align: bottom;
+    margin-left: 20px;
+    width: 25px;
+    height: 28px;
+    
+}
+
+.nav-content__enlace_instagram-logo{
+    display: inline;
+    width: 100% ;
+    height:auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.nav-content__enlace_instagram-logo:hover{
+    transform: scale(1.2);
+}
+
+.usuario-content {
+    margin:auto;
+    margin-top: 76px;
+    position: relative;
+    max-width: auto;
+    max-height: 200%;
+    display:block;
+    position: relative;
+}
+
+.usuario-content__nosotros{
+    position: relative;
+    display: block;
+    margin: 30px;
+    margin-top:100px;
+    margin-bottom: 0;
+    padding: 20px;
+    background-color: rgb(5, 73, 73);
+    font-family: 'Poppins', sans-serif;
+    color:rgb(193, 193, 193);
+    font-size: 25px;
+    border: solid;
+    border-bottom:10px;
+    border-color: black;
+}
+
+.usuario-content__porque_adoptar_con_nosotros{
+   display: block;
+   position: relative;
+   width: 100%;
+   height:300px;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   margin-top:30px;
+   background-color: rgb(5, 73, 73); 
+   padding: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.usuario-content__porque_adoptar_con_nosotros-titulo{
+    display: inline-block;
+    font-size:30px;
+    margin: 15px;
+    color: rgb(255, 255, 255)
+}
+
+.usuario-content__porque_adoptar_con_nosotros p{
+    display: block;
+    margin: 15px;
+}
+
+.usuario-content__porque_adoptar_con_nosotros-img{
+ float: right;
+ width: 400px;
+ margin: 5px;
+ 
+}
+
+.usuario-content__como_puedes_ayudar{
+    display: block;
+    position: relative;
+    width: 100%;
+    height:300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top:30px;
+    background-color: rgb(05, 73, 73); 
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.usuario-content__como_puedes_ayudar-titulo{
+    display: inline-block;
+    font-size:30px;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.usuario-content__como_puedes_ayudar p{
+    display: block;
+    margin: 15px;
+}
+
+.usuario-content__como_puedes_ayudar-img{
+    float: right;
+    width:400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.usuario.content__imagen{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+}
+
+.usuario-content__imagen-img{
+    width: 40%;
+}
+
+.usuario.content__donaciones{
+    display:inline-block;
+    position: relative;
+    width: 40%;
+    height:300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top:30px;
+    padding: 20px;
+}
+
+.usuario-content__donaciones p a{
+    position: relative;
+    display:block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.usuario-content__donaciones p{
+    position: relative;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 50%;
+}
+
+.footer-content {
+    display: block;
+    position: relative;
+    background-color: rgb(5, 73, 73);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    top:100%;
+}
+
+.footer-content__contacto{
+    position:relative;
+    display:flex;
+    padding: 0;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer-content__contacto-llamar{
+   position: relative;
+   color: rgb(9, 243, 196);
+   margin-bottom: 40px;
+   text-decoration: none;
+}
+
+.footer-content__contacto-instagram{
+    position: absolute;
+    color: rgb(9, 243, 196);
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.footer-content__contacto-direccion{
+    position: absolute;
+    color: rgb(9, 243, 196);
+    margin-top: 50px;
+    text-decoration: none; 
+}

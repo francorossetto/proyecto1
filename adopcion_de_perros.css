@@ -3,7 +3,6 @@
     margin: 0%;
 }
 
-
 body {
     display: flex;
     flex-direction: column; 
@@ -35,7 +34,7 @@ header{
     display: inline;
     margin-left: 10px;
     font-size: 50px ;
-    font-family: 'BioRhyme', serif;
+    font-family:'BioRhyme', serif;
     color:rgb(8, 241, 199) ;
 }
 
@@ -50,6 +49,7 @@ header{
     padding: 1px;
     width: auto;
     height: auto;
+    font-family:'Open Sans', sans-serif;
 }
 
 .nav-content__Opciones-button{
@@ -95,6 +95,8 @@ header{
     justify-content: center;
 }
 
+
+
 .usuario-content__perros_content{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -118,9 +120,9 @@ header{
 }
 
 .usuario-content__perros_content-caja{
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
-                0 0  0 2px rgb(190, 190, 190)
-                0.3em 0.3em 1em rgba(0,0,0,0.3);
+    box-shadow: inset 0 1em 3em rgba(0,0,0,0.8),
+                0 0  0 2px rgb(125, 125, 125),
+                0.3em 0.3em 1em rgba(0,0,0,0.8);
 }
 
 .usuario-content__perros_content-caja:hover{
